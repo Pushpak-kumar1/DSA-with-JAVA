@@ -2,7 +2,7 @@ package STACK;
 
 import java.util.*;
 
-public class stock_span_problem {
+public class stock_span_problem { 
     public static void main(String[] args) {
         int arr[] = {100, 80, 60, 70, 60, 75, 85}; 
         int size = arr.length;

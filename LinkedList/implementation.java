@@ -1,5 +1,8 @@
 package LinkedList;
+// hii
+
 public class implementation {
+
     public static class Node {
         int data;
         Node next;

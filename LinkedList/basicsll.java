@@ -9,7 +9,7 @@ public class basicsll {
             this.data = value;
         }
     }
-    
+        
     // function to insert at end
     public static void insertAtEnd(Node head, int value) {
         Node temp = new Node(value);

@@ -30,11 +30,11 @@ public class balanced_bracket {
 
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Please enter your input = ");
+            String str = sc.nextLine();
 
-        System.out.print("Please enter your input = ");
-        String str = sc.nextLine();
-
-        System.out.println(isBalance(str));
+            System.out.println(isBalance(str));
+        }
     }
 }

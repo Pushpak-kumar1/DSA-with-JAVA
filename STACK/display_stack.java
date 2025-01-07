@@ -82,10 +82,10 @@ public class display_stack {
         int n = st.size();
         int arr[] = new int[n];
 
-        for (int i = n - 1; i >= 0; i--) {
-            arr[i] = st.pop(); // [1, 2, 3, 4, 5]
+        for (int i=n-1; i>=0; i--) {
+            arr[i] = st.pop(); // [5, 4, 3, 2, 1]
         }
-        for (int i = 0; i < n; i++) {
+        for (int i=0; i<n; i++) {
             System.out.print(arr[i] + " "); // [1, 2, 3, 4, 5]
             st.push(arr[i]);
         }
